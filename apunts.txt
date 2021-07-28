@@ -1,0 +1,18 @@
+** Django **
+# Instalamos un entorno virtual de python -> pip install virtualenv
+# Creamos un entorno virtual -> virtualenv myenv
+# Activamos el entorno -> myenv\scripts\activate
+# Dentro de este instalamos django -> pip install django
+# Crear proyecto django -> django-admin startproject _nombreDelProyecto_
+# Iniciar/abrir proyecto django -> python manage.py runserver
+# Separamos el proyecto de django en distintas carpetas -> python mane.py startapp _nombreCarpeta_
+# Dentro de base la carpeta urls se encarga de unir los views con las url.
+# Utilizamos django rest framework porqué nos proporciona más opciones con las api's. -> pip install djangorestframework
+# Gestionar CORS del django rest, instalamos dentro del backend -> pip install django-cors-headers
+# python manage.py migrate -> migrar migraciones
+# python manage.py createsuperuser -> Creamos un usuario para acceder a la administración.
+# python manage.py makemigrations -> Para pasar nuestros modelos a una migración después hacemos -> python manage.py migrate 
+# Después dentro de admin.py añadimos el modelo creado para poder acceder desde el administrador de django.
+# settings.py -> definimos los path de subida de archivos.
+# Para obtener datos de la base de datos a través del REST API, los tenemos que serializar para poder leer en el frontend.
+# Utilizar JWT en django -> pip install djangorestframework simplejwt
